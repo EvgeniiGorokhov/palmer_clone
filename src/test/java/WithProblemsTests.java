@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class WithProblemsTests {
 
-    private final String CONST = "const";
+    private  String CONST = "const";
     private final static String bd = "pui";
 
     @Test
@@ -24,7 +24,7 @@ public class WithProblemsTests {
     }
 
     @Test
-    public static void equalsOneToOne(){
+    public static void equalsOneToOne2(){
         assertEquals(1, 1);
     }
 
